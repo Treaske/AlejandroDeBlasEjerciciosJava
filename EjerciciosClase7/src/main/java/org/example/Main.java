@@ -105,6 +105,7 @@ public class Main {
         controlador.crearPlatillo(platillo2);
         controlador.crearPlatillo(platillo3);
         controlador.eliminarPlatillo(platillo2.getId());
+        controlador.editarPlatillo(platillo2.getId(), "Arroz", "RecetaArroz", 29);
 
 
     }

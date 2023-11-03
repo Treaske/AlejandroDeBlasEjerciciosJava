@@ -34,7 +34,7 @@ public class PlatilloJPAController {
         em.remove(platillo);
         em.getTransaction().commit();
     }
-    public void edit(Long id) {
+    public void edit(Long id, String nombre, String receta, double precio) {
         EntityManager em = null;
         em = getEntityManager();
         em.getTransaction().begin();
@@ -42,9 +42,9 @@ public class PlatilloJPAController {
         Platillo platillo = em.find(Platillo.class, id);
         Platillo existingPlatillo = em.find(Platillo.class, platillo.getId());
             if (existingPlatillo != null) {
-                existingPlatillo.setNombre(platillo.getNombre());
-                existingPlatillo.setReceta(platillo.getReceta());
-                existingPlatillo.setPrecio(platillo.getPrecio());
+                existingPlatillo.setNombre(nombre);
+                existingPlatillo.setReceta(receta);
+                existingPlatillo.setPrecio(precio);
                 em.merge(existingPlatillo); // Actualizar el platillo en la base de datos
             } else {
                 // Manejar el caso en el que el platillo no existe en la base de datos

@@ -12,5 +12,7 @@ public class ControladorPersistencia {
     public void eliminarPlatillo(Long id){
         platilloJPA.destroy(id);
     }
-    public void editarPlatillo(Long id)
+    public void editarPlatillo(Long id, String nombre, String receta, double precio){
+        platilloJPA.edit(id, nombre, receta, precio);
+    }
 }

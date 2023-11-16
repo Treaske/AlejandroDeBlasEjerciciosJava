@@ -18,6 +18,7 @@ public class TareaRecursiva extends Tarea {
 
             System.out.println("¿Cuántas subtareas tendrá la tarea " + nombreTarea + "?");
             int cont = scanner.nextInt();
+            //Limpiamos el escaner ya que si no daria error al pedir otro nextLine(problema del nextInt que no guarda el salto de linea)
             scanner.nextLine();
 
             List<Tarea> subtareas = new ArrayList<>();

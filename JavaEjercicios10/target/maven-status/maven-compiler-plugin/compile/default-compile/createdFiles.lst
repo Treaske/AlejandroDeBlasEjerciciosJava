@@ -1,0 +1,10 @@
+com\mycompany\ejerciciosclase13\JakartaRestConfiguration.class
+com\mycompany\ejerciciosclase13\persistencia\ControladoraPersistencia.class
+com\mycompany\ejerciciosclase13\logica\Partido.class
+com\mycompany\ejerciciosclase13\persistencia\exceptions\NonexistentEntityException.class
+com\mycompany\ejerciciosclase13\persistencia\exceptions\PreexistingEntityException.class
+com\mycompany\ejerciciosclase13\servlets\PartidoSv.class
+com\mycompany\ejerciciosclase13\logica\Controladora.class
+com\mycompany\ejerciciosclase13\persistencia\exceptions\IllegalOrphanException.class
+com\mycompany\ejerciciosclase13\persistencia\PartidoJpaController.class
+com\mycompany\ejerciciosclase13\resources\JakartaEE8Resource.class

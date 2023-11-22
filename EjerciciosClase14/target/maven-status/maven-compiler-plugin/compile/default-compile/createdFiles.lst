@@ -1,0 +1,13 @@
+com\mycompany\proyectopartidos\resources\JakartaEE8Resource.class
+com\mycompany\proyectopartidos\servlets\EquipoSv.class
+com\mycompany\proyectopartidos\JakartaRestConfiguration.class
+com\mycompany\proyectopartidos\logica\Partido.class
+com\mycompany\proyectopartidos\persistencia\exceptions\NonexistentEntityException.class
+com\mycompany\proyectopartidos\persistencia\exceptions\IllegalOrphanException.class
+com\mycompany\proyectopartidos\persistencia\PartidoJpaController.class
+com\mycompany\proyectopartidos\persistencia\EquipoJpaController.class
+com\mycompany\proyectopartidos\persistencia\exceptions\PreexistingEntityException.class
+com\mycompany\proyectopartidos\logica\Equipo.class
+com\mycompany\proyectopartidos\persistencia\ControladoraPersistencia.class
+com\mycompany\proyectopartidos\logica\Controladora.class
+com\mycompany\proyectopartidos\servlets\PartidoSv.class
